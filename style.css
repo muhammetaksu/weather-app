@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+body {
+    font-family: "Monserrat", sans-serif;
+    background-image: url(https://live.staticflickr.com/65535/52140320938_53a5cb3d80_k.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.header {
+    padding: 40px 20px 40px 20px;
+    width: 40%;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2vh;
+}
+
+#inputContainer {
+    width: 100%;
+}
+
+.header input {
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0.35rem 0.5rem rgba(218, 30, 67, 0.375);
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(173, 39, 39);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.header input:focus {
+    box-shadow: 0 0 0 0.35rem rgba(218, 30, 67, 0.375);
+    transition: 0.2s linear;
+    border: hidden;
+}
+
+.city {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 2vh;
+    color: white;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.temp {
+    color: springgreen;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.desc {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    text-shadow: 0 0 6px rgba(0, 0, 0);
+}
+
+.minmax {
+    color: springgreen;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 0 6px rgba(0, 0, 0);
+}
+
+/* #test {
+    position: relative;
+}
+
+#test:focus {
+    background-color: #08c;
+}
+
+#test:focus:before {
+    position: absolute;
+    left: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+} */
