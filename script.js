@@ -18,6 +18,7 @@ const getResult = (cityName) => {
 };
 
 const latslons = (res) => {
+    console.log(res);
     const lat = res[0].lat;
     const lon = res[0].lon;
 
