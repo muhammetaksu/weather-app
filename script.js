@@ -1,4 +1,4 @@
-const url1 = "http://api.openweathermap.org/geo/1.0/";
+const url1 = "https://api.openweathermap.org/geo/1.0/";
 const url2 = "https://api.openweathermap.org/data/2.5/";
 
 const key = "5de0b5042b84f2266ba800146060bb19";
