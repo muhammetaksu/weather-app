@@ -53,3 +53,7 @@ const finalResult = (weather) => {
 
 const aramaBar = document.querySelector("#aramaBar");
 aramaBar.addEventListener("keypress", setQuery);
+const app = document.querySelector(".app");
+const header = document.querySelector(".header");
+const content = document.querySelector(".content");
+const inputContainer = document.querySelector("#inputContainer");
